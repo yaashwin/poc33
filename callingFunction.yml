@@ -27,12 +27,3 @@
     # Including local project creation in sonar
     - name: Include Jenkins job and tool management tasks
       include_tasks: /home/yaashwin/terra-ansi/playbooks/sonar_project.yml
-# ---
-# - import_playbook: playbooks/installation.yml
-# - import_playbook: playbooks/jenkins_login.yml
-# - import_playbook: playbooks/generate_api.yml
-# - import_playbook: playbooks/plugin_install.yml
-# - import_playbook: playbooks/sonar_project_generation.yml
-# - import_playbook: playbooks/credentials_jenkins.yml
-# - import_playbook: playbooks/system_tool_config.yml
-# - import_playbook: playbooks/create_job.yml
